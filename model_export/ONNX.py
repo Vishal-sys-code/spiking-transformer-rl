@@ -4,9 +4,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from models.snn import OptimizedSNNModel
 from norse.torch import LIFCell
-from typing import Optional
 script_model = torch.jit.script(snn_model)
-torch.jit.save(script_model, "saved_models/snn_scripted.pt")
+torch.jit.save(script_model, "saved_models/optimized_snn_rl_agent.pth")
 
 # ONNX export example
 dummy_input = torch.randn(1, 8, 4)
