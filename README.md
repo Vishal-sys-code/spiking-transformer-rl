@@ -1,2 +1,4 @@
 # spiking-transformer-rl
-Spiking Neural Networks for Sequential Decision-Making Inspired by Transformer-RL Frameworks
+This is a research-based project of computational neuroscience. More work to be done. This is just a cherry on the top of the cake. 
+
+More to come. 
